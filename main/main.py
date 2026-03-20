@@ -2,6 +2,8 @@ import os
 import file_handler
 import stats
 import cocktail_logic
+from stats import display_all
+
 
 # Main ingredients list
 def main():
@@ -32,6 +34,7 @@ while True:
 
         if choice == "1":
             print("\n[SYSTEM] -> Navigating to Display Module...")
+            stats.display_all_recipes(db)
         elif choice == "2":
             print("\n[SYSTEM] -> Navigating to Manage Module...")
         elif choice == "3":

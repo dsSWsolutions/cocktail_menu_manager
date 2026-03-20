@@ -1,5 +1,4 @@
 
-
 def show_summary(db):
     """Provides a formatted table of the bar's status."""
     print("\n" + "="*35)
@@ -24,3 +23,9 @@ def display_all(db):
                 print(f" • {d['name']} {status}")
                 for ing, amt in d['ingredients'].items():
                     print(f"   - {ing}: {amt}ml")
+
+def display_all_recipes(db):
+    """ Display all recipes """
+    print("\n" + "="*45)
+    print("       📖 THE COMPLETE COCKTAIL BOOK")
+    print("="*45)
