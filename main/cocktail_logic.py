@@ -75,7 +75,7 @@ def delete_cocktail(db):
 
 def search_by_ing(db):
     """Search ingredient"""
-    query = input("\nEnter ingredient to search for: ").lower()
+    query = input("\nEnter ingredient to search for: ").lower().strip()
     found = False
     for cat, drinks in db.items():
         for d in drinks:

@@ -2,140 +2,140 @@
   {
     "name": "Mojito",
     "category": "Alcoholic",
-    "ingredients": ["Light rum", "Lime", "Sugar", "Mint", "Soda water"],
+    "ingredients": { "Light rum": 50, "Lime": 20, "Sugar": 10, "Mint": 5, "Soda water": 100 },
     "glass": "Highball glass",
     "instructions": "Muddle mint and sugar with lime juice. Add rum and top with soda water."
   },
   {
     "name": "Margarita",
     "category": "Alcoholic",
-    "ingredients": ["Tequila", "Triple sec", "Lime juice", "Salt"],
+    "ingredients": { "Tequila": 50, "Triple sec": 20, "Lime juice": 15, "Salt": 2 },
     "glass": "Margarita glass",
     "instructions": "Rub rim with lime and salt. Shake ingredients with ice and strain."
   },
   {
     "name": "Old Fashioned",
     "category": "Alcoholic",
-    "ingredients": ["Bourbon", "Angostura bitters", "Sugar", "Water"],
+    "ingredients": { "Bourbon": 45, "Angostura bitters": 2, "Sugar": 5, "Water": 10 },
     "glass": "Old Fashioned glass",
     "instructions": "Muddle sugar with bitters and water, add ice and bourbon. Stir."
   },
   {
     "name": "Dry Martini",
     "category": "Alcoholic",
-    "ingredients": ["Gin", "Dry vermouth", "Olive"],
+    "ingredients": { "Gin": 60, "Dry vermouth": 10, "Olive": 5 },
     "glass": "Cocktail glass",
     "instructions": "Stir gin and vermouth with ice cubes. Strain into chilled glass. Add olive."
   },
   {
     "name": "Cosmopolitan",
     "category": "Alcoholic",
-    "ingredients": ["Vodka", "Triple sec", "Lime juice", "Cranberry juice"],
+    "ingredients": { "Vodka": 40, "Triple sec": 15, "Lime juice": 15, "Cranberry juice": 30 },
     "glass": "Cocktail glass",
     "instructions": "Shake all ingredients with ice. Strain into a chilled glass."
   },
   {
     "name": "Daiquiri",
     "category": "Alcoholic",
-    "ingredients": ["Light rum", "Lime juice", "Sugar"],
+    "ingredients": { "Light rum": 60, "Lime juice": 30, "Sugar": 15 },
     "glass": "Cocktail glass",
     "instructions": "Shake with ice and strain into a chilled cocktail glass."
   },
   {
     "name": "Whiskey Sour",
     "category": "Alcoholic",
-    "ingredients": ["Bourbon", "Lemon juice", "Sugar", "Cherry"],
+    "ingredients": { "Bourbon": 45, "Lemon juice": 30, "Sugar": 15, "Cherry": 5 },
     "glass": "Old Fashioned glass",
     "instructions": "Shake with ice. Strain into ice-filled glass. Garnish with cherry."
   },
   {
     "name": "Manhattan",
     "category": "Alcoholic",
-    "ingredients": ["Sweet Vermouth", "Bourbon", "Angostura bitters", "Cherry"],
+    "ingredients": { "Sweet Vermouth": 30, "Bourbon": 50, "Angostura bitters": 2, "Cherry": 5 },
     "glass": "Cocktail glass",
     "instructions": "Stir with ice and strain into a chilled glass. Garnish with cherry."
   },
   {
     "name": "Negroni",
     "category": "Alcoholic",
-    "ingredients": ["Gin", "Campari", "Sweet Vermouth"],
+    "ingredients": { "Gin": 30, "Campari": 30, "Sweet Vermouth": 30 },
     "glass": "Old Fashioned glass",
     "instructions": "Stir into glass over ice. Garnish with orange peel."
   },
   {
     "name": "Moscow Mule",
     "category": "Alcoholic",
-    "ingredients": ["Vodka", "Lime juice", "Ginger beer"],
+    "ingredients": { "Vodka": 50, "Lime juice": 15, "Ginger beer": 120 },
     "glass": "Copper Mug",
     "instructions": "Combine vodka and lime juice in a mug. Add ice and ginger beer."
   },
   {
     "name": "Shirley Temple",
     "category": "Non-Alcoholic",
-    "ingredients": ["Ginger ale", "Grenadine", "Maraschino cherry"],
+    "ingredients": { "Ginger ale": 150, "Grenadine": 20, "Maraschino cherry": 5 },
     "glass": "Highball glass",
     "instructions": "Pour ginger ale over ice. Add grenadine. Garnish with cherry."
   },
   {
     "name": "Virgin Mary",
     "category": "Non-Alcoholic",
-    "ingredients": ["Tomato juice", "Lemon juice", "Worcestershire sauce", "Tabasco"],
+    "ingredients": { "Tomato juice": 120, "Lemon juice": 15, "Worcestershire sauce": 5, "Tabasco": 2 },
     "glass": "Highball glass",
     "instructions": "Stir ingredients with ice. Garnish with celery stalk."
   },
   {
     "name": "Virgin Piña Colada",
     "category": "Non-Alcoholic",
-    "ingredients": ["Pineapple juice", "Coconut cream", "Crushed ice"],
+    "ingredients": { "Pineapple juice": 100, "Coconut cream": 50, "Crushed ice": 100 },
     "glass": "Hurricane glass",
     "instructions": "Blend all ingredients until smooth. Pour into glass."
   },
   {
     "name": "Virgin Mojito",
     "category": "Non-Alcoholic",
-    "ingredients": ["Mint", "Lime juice", "Sugar", "Soda water"],
+    "ingredients": { "Mint": 5, "Lime juice": 30, "Sugar": 15, "Soda water": 150 },
     "glass": "Highball glass",
     "instructions": "Muddle mint and sugar. Add lime and ice. Top with soda water."
   },
   {
     "name": "Arnold Palmer",
     "category": "Non-Alcoholic",
-    "ingredients": ["Iced tea", "Lemonade"],
+    "ingredients": { "Iced tea": 100, "Lemonade": 100 },
     "glass": "Highball glass",
     "instructions": "Fill glass with ice. Fill half with tea and half with lemonade."
   },
   {
     "name": "Roy Rogers",
     "category": "Non-Alcoholic",
-    "ingredients": ["Cola", "Grenadine", "Maraschino cherry"],
+    "ingredients": { "Cola": 150, "Grenadine": 20, "Maraschino cherry": 5 },
     "glass": "Highball glass",
     "instructions": "Pour cola over ice. Add grenadine. Garnish with cherry."
   },
   {
     "name": "Cinderella",
     "category": "Non-Alcoholic",
-    "ingredients": ["Orange juice", "Pineapple juice", "Lemon juice", "Soda water"],
+    "ingredients": { "Orange juice": 50, "Pineapple juice": 50, "Lemon juice": 20, "Soda water": 30 },
     "glass": "Highball glass",
     "instructions": "Shake juices with ice. Strain into glass and top with soda water."
   },
   {
     "name": "Safe Sex on the Beach",
     "category": "Non-Alcoholic",
-    "ingredients": ["Peach nectar", "Orange juice", "Cranberry juice"],
+    "ingredients": { "Peach nectar": 40, "Orange juice": 40, "Cranberry juice": 40 },
     "glass": "Highball glass",
     "instructions": "Shake nectar and orange juice. Pour over ice. Top with cranberry juice."
   },
   {
     "name": "Pussy Foot",
     "category": "Non-Alcoholic",
-    "ingredients": ["Orange juice", "Lemon juice", "Lime juice", "Grenadine", "Egg yolk"],
+    "ingredients": { "Orange juice": 60, "Lemon juice": 20, "Lime juice": 20, "Grenadine": 10, "Egg yolk": 15 },
     "glass": "Cocktail glass",
     "instructions": "Shake all ingredients with ice. Strain into a chilled glass."
   },
   {
     "name": "Virgin Sunrise",
     "category": "Non-Alcoholic",
-    "ingredients": ["Orange juice", "Grenadine"],
+    "ingredients": { "Orange juice": 150, "Grenadine": 20 },
     "glass": "Highball glass",
     "instructions": "Fill glass with ice and orange juice. Slowly pour grenadine over the top."
   }

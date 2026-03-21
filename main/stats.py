@@ -12,11 +12,11 @@ def display_all_recipes(db):
             for drink in drinks:
                 # Distinguish between original and user-added drinks
                 tag = "[CLASSIC]" if not drink.get('custom') else "[USER-CREATED]"
-                print(f"  • {drink['name']} {tag}")
+                print(f"  ••• {drink['name']}•••{tag}")
 
                 # Nested loop for ingredients (Dictionary inside List)
                 for ing, amt in drink['ingredients'].items():
-                    print(f"    - {ing}: {amt}ml")
+                    print(f"      - {ing}: {amt}ml")
 
     if not found_any:
         print("\nThe bar is currently empty! Use Option 2 to add drinks.")

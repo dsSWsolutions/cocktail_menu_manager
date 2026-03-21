@@ -11,9 +11,9 @@ def clear():
 def pause():
     input("\nPress ENTER to continue...")
 
-
+# Main menu initialization
 def main():
-    # Data structure initialized before the loop
+
     db = file_handler.load_database()
 
     while True:

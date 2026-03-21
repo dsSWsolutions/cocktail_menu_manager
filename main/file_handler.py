@@ -1,6 +1,5 @@
 import json
 
-
 def load_database(filename="bar_data.json"):
     try:
         with open(filename, 'r') as f:
